@@ -7,12 +7,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:black;
-    color: black;
+    color: white;
 }
 
 h1 {
-    color:rgb(30, 150, 140);
-    font-size: 35px;
+    color: grey;
+    font-family: verdana;
+    font-size: 30px;
     font-weight: 800;
     padding: 30px 25px 15px 25px;
 }
@@ -36,7 +37,7 @@ input, select {
     margin: 8px;
 }
 
-#amount {margin-left: 55px; border-radius: 3px; border: 1px solid black;}
+#principal {margin-left: 55px; border-radius: 3px; border: 1px solid black;}
 #rate {margin-left: 19px;}
 #years {margin-left: 23px;}
 
@@ -46,15 +47,18 @@ input[type="button"] {
     margin-left: 0;
 }
 
-#container {
+.maindiv {
     position: relative;
     top: 15px;
-    background-color: #fff;
+    color: black;
+    background-color: white;
     width: 600px;
+    padding: 20px;
     height: auto;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 25px;
     text-align: left;
+    align: center;
 }
 
 

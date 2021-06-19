@@ -1,18 +1,19 @@
+<!DOCTYPE html>
 <html>
     <head>
-    
+    <title>Web App – Simple Interest Calculator</title>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <section id="container">
+        <div id="container" class="maindiv">
             <h1>Simple Interest Calculator</h1>
             <form>
                 <label for="amount">Amount</label>
-                <input type="number"  id="amount">  
+                <input type="number"  id="principal">  
                 <br>
                 <label for="rate">Interest Rate </label> 
-                <input type="range"  id="rate" value="0" min="0" max="10" step = "0.5" oninput="per.value = rate.value">
-                <output id="per">0</output>%
+                <input type="range"  id="rate" value="10.25" min="1" max="20" step = "0.25" oninput="updateRate()">
+                <span id = "rate_val">10.25</span>%
                 <br>
                 <label for="years">No. of Years</label>
                 <select name="numbers" id="years">
@@ -33,9 +34,10 @@
                 <span id="result"></span><br>
             </form>
             
-
-            <p>&copy Everyone Can Get Rich</p>
-        </section>
+            <footer>
+                <p>&#169; This Calculator belongs to Eduardo Vasquez</p>
+            </footer>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
