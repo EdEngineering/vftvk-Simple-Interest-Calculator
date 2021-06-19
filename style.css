@@ -1,4 +1,63 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    color: black;
+}
+
+h1 {
+    color:rgb(30, 150, 140);
+    font-size: 35px;
+    font-weight: 800;
+    padding: 30px 25px 15px 25px;
+}
+
+p {
+    position: relative;
+    margin-left: 25px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+form {
+    display: block;
+    width: 380px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+input, select {
+    margin: 8px;
+}
+
+#amount {margin-left: 55px; border-radius: 3px; border: 1px solid black;}
+#rate {margin-left: 19px;}
+#years {margin-left: 23px;}
+
+input[type="button"] {
+    display: block;
+    padding: 0px 3px;
+    margin-left: 0;
+}
+
+#container {
+    position: relative;
+    top: 15px;
+    background-color: #fff;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: left;
+}
+
+
+
 
 
